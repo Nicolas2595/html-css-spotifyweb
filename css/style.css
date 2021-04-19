@@ -14,7 +14,7 @@ body {
 .main_left {
     background-color: black;
     position: fixed;
-    height: 600px;
+    height: 500px;
     width: 150px;
     display: inline-block;
 }
@@ -76,6 +76,11 @@ body {
     margin-left: 10px;
     position: relative;
     display: inline-block;
+}
+
+.square-white:hover {
+    background-color: white;
+    cursor: pointer;
 }
 
 .square-white i {
@@ -154,7 +159,7 @@ body {
 /* Margin right */
 .main_right {
     background-color: #141922;
-    height: 200vh;
+    /* height: vh; */
     width: 100%;
     padding-left: 170px
 }
@@ -239,4 +244,70 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    background-color: green;
+    height: 100%;
+    /* line-height: 100px; */
+    display: flex;
+}
+
+.footer-left {
+    align-items: center;
+}
+
+.footer-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-img > img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-h6-a {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.footer-h6-a a {
+    font-size: 9px;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.footer-h6-a a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons i {
+    font-size: 11px;
+    color: grey;
+    margin: 6px;
+}
+
+.icons i:hover {
+    color: white;
 }
