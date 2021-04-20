@@ -23,25 +23,36 @@ main {
     top: 0;
     right: 0;
     width: calc(100% - 150px);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .btn {
     width: 170px;
     height: 30px;
     border-radius: 20px;
-    position: absolute;
-    top: 30px;
-    right: 0;
     background-color: rgba(0, 0, 0, 0.4);
     border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    width: 180px;
+    height: 40px;
+}
+
+.btn a:hover {
+    font-size: 11px;
 }
 
 .btn a {
     color: white;
     font-size: 9px;
-    /* line-height: 40px; */
     text-decoration: none;
-    padding-left: 40px;
 }
 
 /* Main left */
@@ -51,7 +62,7 @@ main {
     /* height: 500px; */
     width: 150px;
     display: inline-block;
-     overflow-y: auto;
+    overflow-y: auto;
 }
 
 .main_left h6 {
@@ -467,4 +478,20 @@ footer {
 
 .bar-right1:hover > .bar-right-circle {
     display: block;
+}
+
+/* Media Query */
+@media screen and (max-width: 767px) {
+    
+    .main_left {
+        width: 50px;
+    }
+
+    .main_right {
+        width: calc(100% - 50px);
+    }
+
+    .header-main-button {
+        width: calc(100% - 50px);
+    }
 }
