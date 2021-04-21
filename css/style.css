@@ -619,3 +619,10 @@ footer {
         width: 133%;
     }
 }
+
+@media screen and (max-height: 435px) {
+    
+    .main-left-bottom {
+        display: none;
+    }
+}
