@@ -11,9 +11,31 @@
         <link rel="stylesheet" href="css/style.css">
         <title>Spotify</title>
     </head>
+        <style>
+            /* width */
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+            
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 5px grey; 
+                border-radius: 10px;
+            }
+            
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: forestgreen; 
+                border-radius: 10px;
+            }
+            
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: green;
+            
+            }
+        </style>
     <body>
-
-        
 
         <!-- Main -->
         <main>
@@ -25,7 +47,8 @@
             </div>
             <!-- Fine header button -->
             <aside class="main_left">
-                <img src="img/logo.svg" alt="logo">
+                <img class="main-left-first-image" src="img/logo.svg" alt="logo">
+                <img class="main-left-second-image" src="img/logo-small.svg" alt="logo-small">
                 <div class="main-left-link">
                     <img src="img/home.svg" alt="home">
                     <a href="#">Home</a>
@@ -79,6 +102,9 @@
                 <div class="flex-container-image">
                     <div class="image">
                         <img src="img/metal_lifting.jpg" alt="metal">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <div class="flex-container-h5-p">
                             <h5>Heavy metal</h5>
                             <p>Subtitle</p>
@@ -86,6 +112,9 @@
                     </div>
                     <div class="image">
                         <img src="img/stranger.jpeg" alt="stranger">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <div class="flex-container-h5-p">
                             <h5>Stranger Things, vol.1 (a Netflix original series soundtrack)</h5>
                             <p>Kile Dixon & Michael Stein</p>
@@ -94,6 +123,9 @@
                     </div>
                     <div class="image">
                         <img src="img/aquietplace.jpeg" alt="quiet">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <div class="flex-container-h5-p">
                             <h5>A quiet place</h5>
                             <p>Subtitle</p>
@@ -102,6 +134,9 @@
                     </div>
                     <div class="image">
                         <img src="img/split.jpeg" alt="split">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <div class="flex-container-h5-p">
                             <h5>Split</h5>
                             <p>Subtitle</p>
@@ -110,6 +145,9 @@
                     </div>
                     <div class="image">
                         <img src="img/cure.jpeg" alt="cure">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <div class="flex-container-h5-p">
                             <h5>A cure for welness</h5>
                             <p>subtitle</p>
@@ -118,6 +156,9 @@
                     </div>
                     <div class="image">
                         <img src="img/sinister.jpeg" alt="sinister">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <div class="flex-container-h5-p">
                             <h5>Sinister</h5>
                             <p>Subtitle</p>
@@ -129,10 +170,16 @@
                 <div class="flex-container-image">
                     <div class="image">
                         <img src="img/radar.jpeg" alt="radar">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <h5 class="flex-container-h5-p">Release Radar</h5>
                     </div>
                     <div class="image">
                         <img src="img/mixdaily.jpeg" alt="daily">
+                        <div class="hover-image">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <h5 class="flex-container-h5-p">Daily Mix 1</h5>
                     </div>
                 </div>
@@ -141,10 +188,16 @@
                 <div class="container-image-circle">
                     <div class="image-circle">
                         <img src="img/youg.jpeg" alt="young">
+                        <div class="hover-image-circle">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <h5 class="flex-container-h5-p">Lana Del Rey</h5>
                     </div>
                     <div class="image-circle">
                         <img src="img/einaudi.jpeg" alt="einaudi">
+                        <div class="hover-image-circle">
+                            <span><i class="far fa-play-circle fa-2x"></i></span>
+                        </div>
                         <h5 class="flex-container-h5-p">Einaudi</h5>
                     </div>
                 </div>
