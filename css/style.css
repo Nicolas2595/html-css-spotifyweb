@@ -61,7 +61,7 @@ main {
     background-color: black;
     width: 150px;
     display: inline-block;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 .main_left h6 {
@@ -121,7 +121,7 @@ main {
 
 .main-left-link2 {
     overflow-y: auto;
-    height: calc(100% - 200px);
+    height: calc(100% - 300px);
 }
 
 .square-white {
