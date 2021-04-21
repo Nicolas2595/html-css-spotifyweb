@@ -612,3 +612,9 @@ footer {
         margin-top: 286px;
     }
 }
+
+@media screen and (max-width: 288px) {
+    .container-bar {
+        width: 133%;
+    }
+}
