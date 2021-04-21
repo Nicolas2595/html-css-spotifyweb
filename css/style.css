@@ -26,6 +26,7 @@ main {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    z-index: 2;
 }
 
 .btn {
